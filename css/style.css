@@ -8,6 +8,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   font: 1.6rem "Open Sans", sans-serif;
+  background: #fafafa;
   margin: 0;
   line-height: 1.6;
   letter-spacing: 0.1rem;
@@ -30,6 +31,7 @@ input {
 main {
   width: 102.4rem;
   margin: 0 auto;
+  
 }
 ul {
   margin: 0;
