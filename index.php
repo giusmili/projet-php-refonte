@@ -32,7 +32,9 @@
 			?>
 	</main>
 <footer>
-	<p>&copy; - EDW - <?= $date->format('Y')?></p>
+	<p>&copy; - EDW - <?= $date->format('Y')?><br>
+		<img src="./asset/giusmili-lead-developer.svg" alt="badge">
+	</p>
 </footer>
 	
 </body>
