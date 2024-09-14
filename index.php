@@ -1,5 +1,5 @@
 <?php
-	const titre ="🧑‍💻 EDW portfolio - développeur";
+	include_once __DIR__ .'/include/head.inc.php';
 ?>
 
 <!DOCTYPE HTML>
@@ -8,10 +8,8 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Portfolio développeur web et applications">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php print titre ?></title>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	
-	<link rel="stylesheet" href="css/style.css">
+	<title><?= titre ?></title>
+	<link rel="stylesheet" href="<?= $style ?>">
 </head>
 <body>
 
@@ -22,7 +20,7 @@
 		
 	</ul>
 	<main>
-		<h1><?php print titre ?></h1>
+		<h1><?= titre ?></h1>
 
 	
 			<?php

@@ -22,11 +22,8 @@
 					else{
 						include("./template/index.html");
 				}
-            
-
+            }
         }
-        
-    }
 
     Nav::user();
 
