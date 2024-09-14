@@ -1,6 +1,6 @@
 # 🚀 Template php for student
 
-## MVC
+## MVC & multicouche
 ```cmd
 +-------------------------------+
 |    Couche de Présentation     |

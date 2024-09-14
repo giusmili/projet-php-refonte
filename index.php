@@ -9,6 +9,10 @@
 	<meta name="description" content="Portfolio développeur web et applications">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?= titre ?></title>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
 	<link rel="stylesheet" href="<?= $style ?>">
 </head>
 <body>
@@ -20,7 +24,7 @@
 		
 	</ul>
 	<main>
-		<h1><?= titre ?></h1>
+		<h1><span aria-hidden="true">🧑‍💻</span> <?= titre ?></h1>
 
 	
 			<?php
@@ -28,7 +32,7 @@
 			?>
 	</main>
 <footer>
-	<p>&copy; - EDW - 2020</p>
+	<p>&copy; - EDW - <?= $date->format('Y')?></p>
 </footer>
 	
 </body>
