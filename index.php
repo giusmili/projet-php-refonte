@@ -7,7 +7,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?php print titre ?></title>
-	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	
 	<link rel="stylesheet" href="css/style.css">
@@ -37,17 +36,17 @@
 						if($root==3){
 							include_once("./template/contact.html");
 						}
-						else if($root>3 || $root==0){
+						else if($root>=3 || $root<=0){
 							echo '<p class="warning"><i class="far fa-frown"></i> La page demandée n\'existe pas!!</p>';
 							//header("HTTP/1.0 404 Not Found");
 						}
 
-				}
+					}
 					else{
 						include("./template/index.html");
-					}
+				}
 
 			?>
-	</div>
+	
 </body>
 </html>
