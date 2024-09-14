@@ -3,7 +3,7 @@
 ## MVC
 ```cmd
 +-------------------------------+
-|        Couche de Présentation |
+|    Couche de Présentation     |
 |    (HTML, CSS, JS, Frameworks)|
 +-------------------------------+
               |
@@ -23,6 +23,6 @@
               v
 +-------------------------------+
 |      Base de Données          |
-| (SQL, NoSQL, etc.)            |
+|     (SQL, NoSQL, etc.)        |
 +-------------------------------+
 ```

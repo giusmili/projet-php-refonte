@@ -28,6 +28,10 @@
 			<?php
 				include_once __DIR__ .'/controller/baseController.class.php';
 			?>
+	</main>
+<footer>
+	<p>&copy; - EDW - 2020</p>
+</footer>
 	
 </body>
 </html>
